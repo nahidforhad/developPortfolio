@@ -7,6 +7,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav > ul{
     display: flex;
@@ -36,4 +37,18 @@ nav a{
     color: white;
     font-size: 20px;
     font-weight: 700;
+    padding: 8px;
+}
+/*style for banner*/
+.header{
+    background-color:  #FFF8F3;;
+}
+.banner{
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .dp{
+    height: 676px;
+    width: 500px;
 }
